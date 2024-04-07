@@ -1,0 +1,74 @@
+Source_List: ['AWS-MachineLearning', 'Meta-Research', 'DeepMind-Google', 'OpenAI_Blog', 'Microsoft_Blog', 'InfoQ', '36kr', 'deeplearning_ai', 'sspai']
+
+
+AWS-MachineLearning:
+  url: https://aws.amazon.com/cn/blogs/machine-learning/feed/
+  tags: ['AWS', 'AI']
+  priority: 3
+  type: rss
+  folder: AI
+
+Meta-Research:
+  url: https://research.fb.com/feed/
+  tags: ['Meta', 'AI']
+  priority: 3
+  type: rss
+  folder: AI
+
+DeepMind-Google:
+  url: https://deepmind.google/blog/rss.xml
+  tags: ['Google', 'AI']
+  priority: 4
+  type: rss
+  folder: AI
+
+OpenAI_Blog:
+  url: https://openai.com/blog/rss
+  tags: ['OpenAI', 'AI']
+  priority: 5
+  type: rss
+  folder: AI
+
+Microsoft_Blog:
+  url: https://blogs.microsoft.com/ai/feed/rss
+  tags: ['Microsoft', 'AI']
+  priority: 3
+  type: rss
+  folder: AI
+
+InfoQ:
+  url: https://www.infoq.cn/feed/
+  tags: ['InfoQ', 'news']
+  priority: 2
+  type: rss
+  folder: TechNews
+
+36kr:
+  url: https://www.36kr.com/feed-article
+  tags: ['36kr', 'news']
+  priority: 1
+  type: rss
+  folder: TechNews
+
+sspai:
+  url: https://sspai.com/feed
+  tags: ['sspai', 'news']
+  priority: 3
+  type: rss
+  folder: sspai
+
+deeplearning_ai:
+  url: https://www.deeplearning.ai/the-batch/
+  tags: ['deeplearning.ai', 'AI']
+  priority: 5
+  type: web
+  folder: AI
+  domain: https://www.deeplearning.ai
+
+ali_product_news:
+  url: https://www.aliyun.com/product/news?spm=a2c4g.750001.0.0.4cc1284277zV52
+  tags: ['ali_product_news', 'aliyun']
+  priority: 4
+  type: web
+  folder: cloud
+  domain: ''
